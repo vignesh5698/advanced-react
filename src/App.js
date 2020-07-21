@@ -7,7 +7,7 @@ import InputCounter from './components/InputCounter';
 function App() {
   return (
     <div className="App">
-      <ButtonCounter />
+      <ButtonCounter name="Button" />
       <HoverCounter />
       <InputCounter />
     </div>

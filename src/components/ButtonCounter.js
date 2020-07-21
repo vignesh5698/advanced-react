@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import withCounter from './withCounter';
 
-export class ButtonCounter extends Component {
+class ButtonCounter extends Component {
   render() {
     const { count, onAdd } = this.props;
     return (
@@ -12,4 +12,4 @@ export class ButtonCounter extends Component {
   }
 }
 
-export default withCounter(ButtonCounter);
+export default withCounter(ButtonCounter, 10);
