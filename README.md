@@ -26,3 +26,19 @@
 
 1.  It only works with class components
 2.  You can only subscribe to single context type
+
+#   ***Refs***
+
+- Using refs we can access DOM nodes or react elements inside the render method.
+
+***Create Refs using React.createRef()***
+
+1.  Create the ref using React.createRef()
+2.  Attach this ref to the input element
+3.  Call the focus element for that input element
+
+***Create Refs using callback refs***
+
+1.  Create a property and assign the value `null`
+2.  Create the method that will the assign dom element to the ref we created
+3.  

@@ -6,6 +6,7 @@ import InputCounter from './components/InputCounter';
 import { UserProvider } from './components/context/userContext';
 import ComponentA from './components/context/ComponentA';
 import { ThemeProvider } from './components/context/themeContext';
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           <ComponentA />
         </ThemeProvider>
       </UserProvider>
+
+      <RefsDemo />
     </div>
   );
 }
