@@ -7,6 +7,7 @@ import { UserProvider } from './components/context/userContext';
 import ComponentA from './components/context/ComponentA';
 import { ThemeProvider } from './components/context/themeContext';
 import RefsDemo from './components/RefsDemo';
+import ParentComp from './components/ParentComp';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       </UserProvider>
 
       <RefsDemo />
+      <ParentComp />
     </div>
   );
 }

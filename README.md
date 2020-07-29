@@ -41,4 +41,17 @@
 
 1.  Create a property and assign the value `null`
 2.  Create the method that will the assign dom element to the ref we created
-3.  
+
+#   ***Pure Components***
+
+1.  A regular component does not implement `shouldComponentUpdate` method. It always returns `true` by default.
+2.  A pure component implement `shouldComponentUpdate` method with a shallow props and state comparision.
+3.  If there is no difference, the component will not be re-rendered -perforamnce boost
+***Shallow comparision***
+
+1.  Primitive types (Check two values are same and are of same type)
+2.  Complex types (Check both reference to exact same object)
+
+***Things to remember while working with Pure Components***
+
+- Never mutate the state. Always return a new object that reflects the new state.
